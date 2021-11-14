@@ -1,0 +1,390 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Tomer/Code/AppDrill/frontend/AppDrillFrontend/AppDrillCore",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Connection.ConnectionInfo.ConnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Connection.ConnectionInfo.ConnectionType.html",
+          "hash": "5I8o2AKsm1eIHO8S4J1lVkjipM7VHLagGpuqq6z6CIc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Connection.ConnectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Connection.ConnectionInfo.html",
+          "hash": "GDUqcoaZdwfqN185siJ1nscV2hC8cWuFWGvbV3T3psg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Connection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Connection.html",
+          "hash": "8EoN0vagFfJXiko+tOB/7spAqc3G55ibjVbnJbCQ1Bg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.BaseElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.BaseElement.html",
+          "hash": "Vs54ahzLkm5YkBDKY6Td45dBoBSKghkgb5d8uCgibj4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.Component.html",
+          "hash": "NhquTaOw5QoUSrr7/eqQ68vsvVlyU8yYGeBwoX3jO9g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.CorrectiveAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.CorrectiveAction.html",
+          "hash": "dDgqlKEDsdiIJcjqBFLKqRp0veQv4pvID92SXvLBAfs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.Failure.FailureResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.Failure.FailureResolution.html",
+          "hash": "gOgCG9HC9QZQdM+VGIZgpqTVaxIT6rtZAFvUqkMWCLI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.Failure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.Failure.html",
+          "hash": "XgcD2vbCNKHUiVcUmbKhvwvtfVDQCaIya2EEBPYN3E4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.Symptom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.Symptom.html",
+          "hash": "jyssUj4q5Q/4Rj3zcgwrgt87k71jGiTOXNDkmabHQ7k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.Test.html",
+          "hash": "/upYJ8wD28c3BIvakC7RXXf2/xdxhAB6RHB7vPgUaD4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.TestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.TestResult.html",
+          "hash": "8cZy1CbCS6tEXu0vuw3P6EQP++swTNraa48iZmbvsus="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Model.html",
+          "hash": "DSsKIEbYXtrCGe+qzjUsxmwM999gTgxpEm4TBeYXU/s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ClientSettings.EMachineState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ClientSettings.EMachineState.html",
+          "hash": "IkuR4b+NjEnMznswjlYlCWgjLDLKkEVybwlNRiPRdR0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ClientSettings.EUserLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ClientSettings.EUserLevel.html",
+          "hash": "FvFamKCjpIRdhniqV/wqPzu5wiQuoXdnEb5Wm+Qabwg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ClientSettings.WeightDistribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ClientSettings.WeightDistribution.html",
+          "hash": "O90RS5EvqmpxXZzWrETMhtkzgnbXUuNXVoHu9hXT3ww="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ClientSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ClientSettings.html",
+          "hash": "epDpneXup/eVrtTkk8vNlJ0YDJc/7PXXrbN7KiZpuaQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ClientSettingsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ClientSettingsManager.html",
+          "hash": "VHcQXl3WSd0YpfXCQ4E1BBSXKUK5mom/Y+OHMEB3L3A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ISession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ISession.html",
+          "hash": "MZqMoqhd/wPPCu5MvwAGWIXlkM9K5sT/JgoSSO2mBcA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ISessionDataListener.SessionDataChangedEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ISessionDataListener.SessionDataChangedEventType.html",
+          "hash": "y34m51oVv7I70Ew1TJiYKPqt8pCp2+X+BX2WPV05E/k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.ISessionDataListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.ISessionDataListener.html",
+          "hash": "QSjk2JciSLYti6u/TVLujPGeGuHPMKIR5n3rRBDA5N8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.SessionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.SessionManager.html",
+          "hash": "93B5waNj0Sgf0H+EOPcdhtJWXTjyhb3r3Hxf6zvOjdQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AppDrillCore.Session.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AppDrillCore.Session.html",
+          "hash": "sOGpjfEjlkNiXMkXY+7HzJvMjc/LKCF7ZcL9bN9eo8o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ufOGjJiYaqGh4iuohXxY2UpRK2JerwXedd789lUn11I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "csMDcushYVivfZY0DTpJGaXNAyT5BYawWxqOPpa9EKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "g6X1YeKQXQ7FAKpmTqc9yfxYhnyMnEBr0MTYpoVCnXs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VsTf01/acG+/yPgjCN8a/KHleO2IyMxJ7gQXnDl01AQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 22
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

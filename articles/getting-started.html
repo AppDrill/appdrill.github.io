@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting started with the AppDrill C# SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting started with the AppDrill C# SDK ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started-with-the-appdrill-c-sdk">Getting started with the AppDrill C# SDK</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>Each AppDrill troubleshooting session will always consist of the following steps:</p>
+<ol>
+<li>Connect to an AppDrill backend instance and retrieve a list of models</li>
+<li>Choose a model to work with in the session (only one model can be used for each session)</li>
+<li>Get Failures, Tests and Corrective actions associated with symptoms defined for the selected model</li>
+<li>Update test results, and advance in the troubleshooting session</li>
+</ol>
+<h2 id="starting-and-ending-a-session">Starting and ending a session</h2>
+<p>The <a class="xref" href="../api/AppDrillCore.Session.SessionManager.html">SessionManager</a> is responsible for the life cycle of a session.</p>
+<p>In order to create a new session, one would need to provide a <a class="xref" href="../api/AppDrillCore.Connection.ConnectionInfo.html">ConnectionInfo</a> instance, which holds the necessary information for initiating the session.</p>
+<p>A session can be started by calling <a class="xref" href="../api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_BeginSession_AppDrillCore_Session_ISessionDataListener_AppDrillCore_Connection_ConnectionInfo_Microsoft_Extensions_Logging_ILogger_">BeginSession</a>, and end by calling <a class="xref" href="../api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_EndSession_AppDrillCore_Session_ISession_">EndSession</a>:</p>
+<pre><code class="lang-C#">class MyClass : ISessionDataListener
+{
+    // ...
+
+    private ISession _session;
+
+    private void Initialize()
+    {
+        // Generate a connection info object - a server address, and a model name
+        ConnectionInfo connectionInfo = new ConnectionInfo(&quot;http://model.appdrill.io&quot;, &quot;mymodel&quot;);
+
+        // Begin the session, use 'this' instance as the callback handler
+        _session = SessionManager.Instance.BeginSession(this, connectionInfo);
+    }
+
+    private void Finalize()
+    {
+        // End the session
+        SessionManager.Instance.CloseSession(_session);
+    }
+
+    // ...
+}
+</code></pre>
+<h2 id="working-with-a-session-instance">Working with a session instance</h2>
+<p>Once an instance of an <a class="xref" href="../api/AppDrillCore.Session.ISession.html">ISession</a> type is aquired through the SessionManager, we may now begin a troubleshooting session for the selected model.</p>
+<p>The workflow would normally be as follows:</p>
+<ol>
+<li>Use <a class="xref" href="../api/AppDrillCore.Session.ISession.html#AppDrillCore_Session_ISession_GetSymptoms">GetSymptoms</a> to get the symptoms available for the selected model</li>
+<li>Call <a class="xref" href="../api/AppDrillCore.Session.ISession.html#AppDrillCore_Session_ISession_RefreshSymptomData_System_String_">RefreshSymptomData</a> on a specific symptom to retrieve symptom data from the server</li>
+<li>Use the various GetXXX() calls in order to get available Failures, Tests, Components and Corrective Actions</li>
+<li>Set test result using <a class="xref" href="../api/AppDrillCore.Session.ISession.html#AppDrillCore_Session_ISession_SetTestResult_System_String_AppDrillCore_Model_TestResult_">SetTestResult</a>, then go back to step #2</li>
+</ol>
+<p>The following example depict in code the steps described above:</p>
+<pre><code class="lang-C#">class MyClass : ISessionDataListener
+{
+    // ...
+
+    private void HandleSomeSymptom()
+    {
+        // Get all symptoms associated with the model
+        var symptoms = _session.GetSymptoms();
+
+        // Refresh data for the first symptom in the list
+        if (_session.RefreshSymptomData(symptoms[0].Id))
+        {
+            // Expect async callback through SessionDataChanged
+        }
+        else
+        {
+            // Handle failure
+        }
+    }
+
+    public void SessionDataChanged(ISessionDataListener.SessionDataChangedEventType eventType)
+    {
+        // Session is now up-to-date, do something with the data
+        var tests = _session.GetCommonTests(); // Or, GetTestsBySymptomId()
+        // ...
+    }
+
+    // ...
+}
+
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/AppDrill/AppDrill/blob/main/frontend/AppDrillFrontend/AppDrillCore/articles/getting-started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

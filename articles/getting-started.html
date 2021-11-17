@@ -77,6 +77,28 @@
 <li>Get Failures, Tests and Corrective actions associated with symptoms defined for the selected model</li>
 <li>Update test results, and advance in the troubleshooting session</li>
 </ol>
+<h2 id="getting-the-list-of-models-from-an-appdrill-server">Getting the list of models from an AppDrill server</h2>
+<p>Before starting a troubleshooting session, one would need to choose a model to work with for that session.
+<a class="xref" href="../api/AppDrillCore.Session.SessionManager.html">SessionManager</a> provides the means for retrieving a list of model names that one server holds/manages.</p>
+<p>The following example depict code for using the function <a class="xref" href="../api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_GetModelNames_System_String_Microsoft_Extensions_Logging_ILogger_">GetModelNames</a> to get the list of model names:</p>
+<pre><code class="lang-C#">try
+{
+    var modelNames = await Task.Run(() =&gt; SessionManager.Instance.GetModelNames(&quot;http://model.appdrill.io&quot;);
+
+    if (modelNames != null)
+    {
+        // Do something with the list of model names
+    }
+    else
+    {
+        // Server error, or no models available
+    }
+}
+catch (Exception)
+{
+    // Connection issue, handle error
+}
+</code></pre>
 <h2 id="starting-and-ending-a-session">Starting and ending a session</h2>
 <p>The <a class="xref" href="../api/AppDrillCore.Session.SessionManager.html">SessionManager</a> is responsible for the life cycle of a session.</p>
 <p>In order to create a new session, one would need to provide a <a class="xref" href="../api/AppDrillCore.Connection.ConnectionInfo.html">ConnectionInfo</a> instance, which holds the necessary information for initiating the session.</p>
@@ -144,7 +166,26 @@
 
     // ...
 }
-
+</code></pre>
+<h2 id="setting-test-result">Setting test result</h2>
+<p>When a test is performed by an operator, the backend model needs to get updated with the result, so the new data can be taken into account.
+The new data will be used to re-evaluate the weight of pending tests and how failures get ranked.</p>
+<p>To update the result of a test execution, use the <a class="xref" href="../api/AppDrillCore.Session.ISession.html#AppDrillCore_Session_ISession_SetTestResult_System_String_AppDrillCore_Model_TestResult_">SetTestResult</a> function:</p>
+<pre><code class="lang-C#">public void MyUpdateFunc(Test test)
+{
+    if (testFailed(test))
+    {
+        _session.SetTestResult(test.id, TestResult.Failed)
+    }
+    else if (testPassed(test))
+    {
+        _session.SetTestResult(test.id, TestResult.Passed)
+    }
+    else
+    {
+        _session.SetTestResult(test.id, TestResult.Skipped)
+    }
+}
 </code></pre>
 </article>
           </div>

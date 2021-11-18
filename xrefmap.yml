@@ -127,11 +127,11 @@ references:
   isSpec: "True"
   fullName: AppDrillCore.Model.BaseElement.Description
   nameWithType: BaseElement.Description
-- uid: AppDrillCore.Model.BaseElement.Equals(System.Object)
+- uid: AppDrillCore.Model.BaseElement.Equals(Object)
   name: Equals(Object)
-  href: api/AppDrillCore.Model.BaseElement.html#AppDrillCore_Model_BaseElement_Equals_System_Object_
-  commentId: M:AppDrillCore.Model.BaseElement.Equals(System.Object)
-  fullName: AppDrillCore.Model.BaseElement.Equals(System.Object)
+  href: api/AppDrillCore.Model.BaseElement.html#AppDrillCore_Model_BaseElement_Equals_Object_
+  commentId: M:AppDrillCore.Model.BaseElement.Equals(Object)
+  fullName: AppDrillCore.Model.BaseElement.Equals(Object)
   nameWithType: BaseElement.Equals(Object)
 - uid: AppDrillCore.Model.BaseElement.Equals*
   name: Equals
@@ -558,11 +558,11 @@ references:
   commentId: F:AppDrillCore.Session.ClientSettings.EMachineState.STANDBY
   fullName: AppDrillCore.Session.ClientSettings.EMachineState.STANDBY
   nameWithType: ClientSettings.EMachineState.STANDBY
-- uid: AppDrillCore.Session.ClientSettings.Equals(System.Object)
+- uid: AppDrillCore.Session.ClientSettings.Equals(Object)
   name: Equals(Object)
-  href: api/AppDrillCore.Session.ClientSettings.html#AppDrillCore_Session_ClientSettings_Equals_System_Object_
-  commentId: M:AppDrillCore.Session.ClientSettings.Equals(System.Object)
-  fullName: AppDrillCore.Session.ClientSettings.Equals(System.Object)
+  href: api/AppDrillCore.Session.ClientSettings.html#AppDrillCore_Session_ClientSettings_Equals_Object_
+  commentId: M:AppDrillCore.Session.ClientSettings.Equals(Object)
+  fullName: AppDrillCore.Session.ClientSettings.Equals(Object)
   nameWithType: ClientSettings.Equals(Object)
 - uid: AppDrillCore.Session.ClientSettings.Equals*
   name: Equals
@@ -750,11 +750,11 @@ references:
   isSpec: "True"
   fullName: AppDrillCore.Session.ClientSettings.WeightDistribution.Duration
   nameWithType: ClientSettings.WeightDistribution.Duration
-- uid: AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(System.Object)
+- uid: AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(Object)
   name: Equals(Object)
-  href: api/AppDrillCore.Session.ClientSettings.WeightDistribution.html#AppDrillCore_Session_ClientSettings_WeightDistribution_Equals_System_Object_
-  commentId: M:AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(System.Object)
-  fullName: AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(System.Object)
+  href: api/AppDrillCore.Session.ClientSettings.WeightDistribution.html#AppDrillCore_Session_ClientSettings_WeightDistribution_Equals_Object_
+  commentId: M:AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(Object)
+  fullName: AppDrillCore.Session.ClientSettings.WeightDistribution.Equals(Object)
   nameWithType: ClientSettings.WeightDistribution.Equals(Object)
 - uid: AppDrillCore.Session.ClientSettings.WeightDistribution.Equals*
   name: Equals
@@ -1078,11 +1078,11 @@ references:
   commentId: T:AppDrillCore.Session.SessionManager
   fullName: AppDrillCore.Session.SessionManager
   nameWithType: SessionManager
-- uid: AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener,AppDrillCore.Connection.ConnectionInfo,Microsoft.Extensions.Logging.ILogger)
+- uid: AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener,AppDrillCore.Connection.ConnectionInfo,ILogger)
   name: BeginSession(ISessionDataListener, ConnectionInfo, ILogger)
-  href: api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_BeginSession_AppDrillCore_Session_ISessionDataListener_AppDrillCore_Connection_ConnectionInfo_Microsoft_Extensions_Logging_ILogger_
-  commentId: M:AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener,AppDrillCore.Connection.ConnectionInfo,Microsoft.Extensions.Logging.ILogger)
-  fullName: AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener, AppDrillCore.Connection.ConnectionInfo, Microsoft.Extensions.Logging.ILogger)
+  href: api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_BeginSession_AppDrillCore_Session_ISessionDataListener_AppDrillCore_Connection_ConnectionInfo_ILogger_
+  commentId: M:AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener,AppDrillCore.Connection.ConnectionInfo,ILogger)
+  fullName: AppDrillCore.Session.SessionManager.BeginSession(AppDrillCore.Session.ISessionDataListener, AppDrillCore.Connection.ConnectionInfo, ILogger)
   nameWithType: SessionManager.BeginSession(ISessionDataListener, ConnectionInfo, ILogger)
 - uid: AppDrillCore.Session.SessionManager.BeginSession*
   name: BeginSession
@@ -1104,11 +1104,11 @@ references:
   isSpec: "True"
   fullName: AppDrillCore.Session.SessionManager.EndSession
   nameWithType: SessionManager.EndSession
-- uid: AppDrillCore.Session.SessionManager.GetModelNames(System.String,Microsoft.Extensions.Logging.ILogger)
+- uid: AppDrillCore.Session.SessionManager.GetModelNames(System.String,ILogger)
   name: GetModelNames(String, ILogger)
-  href: api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_GetModelNames_System_String_Microsoft_Extensions_Logging_ILogger_
-  commentId: M:AppDrillCore.Session.SessionManager.GetModelNames(System.String,Microsoft.Extensions.Logging.ILogger)
-  fullName: AppDrillCore.Session.SessionManager.GetModelNames(System.String, Microsoft.Extensions.Logging.ILogger)
+  href: api/AppDrillCore.Session.SessionManager.html#AppDrillCore_Session_SessionManager_GetModelNames_System_String_ILogger_
+  commentId: M:AppDrillCore.Session.SessionManager.GetModelNames(System.String,ILogger)
+  fullName: AppDrillCore.Session.SessionManager.GetModelNames(System.String, ILogger)
   nameWithType: SessionManager.GetModelNames(String, ILogger)
 - uid: AppDrillCore.Session.SessionManager.GetModelNames*
   name: GetModelNames

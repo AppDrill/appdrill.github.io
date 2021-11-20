@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Connection.ConnectionInfo.ConnectionType.html",
-          "hash": "ccMp5BeCu9VltD/Ppauk1Q=="
+          "hash": "O7yrGTIz7F4Ydg4H5SLoOw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Connection.ConnectionInfo.html",
-          "hash": "ECePKqHQYeaXPqVXNyniYg=="
+          "hash": "V6KWJH9NwwhfDgYCCHTZUg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Connection.html",
-          "hash": "AsErqPvCTb3Tr+sjWYPFBg=="
+          "hash": "8gt9T2rnVY9/sQ3s7nJhaw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.BaseElement.html",
-          "hash": "lKLwBD5974jD6Qik3Exh4A=="
+          "hash": "I8CWbNzLINro+OrMU27Mtw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.Component.html",
-          "hash": "UOfGN+sJXUMQrOgdK7sunA=="
+          "hash": "XIvZgralp4Zsbr8p8SuquQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.CorrectiveAction.html",
-          "hash": "pZYih17Mg8tzQTkxp1oLaw=="
+          "hash": "EwTTgFV+tlXwfxYe7YS6Rw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.Failure.FailureResolution.html",
-          "hash": "DagztqH5EVLqWhoJyMFtOw=="
+          "hash": "kxXME7VUz1mtqpI4nlepSw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.Failure.html",
-          "hash": "nwN+C8QDCgmPuh6uXdqKMw=="
+          "hash": "MeUGW8LcyPkN1s4P+fhvnQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.Symptom.html",
-          "hash": "N0j9wbct3vLZyAE2W9PCCQ=="
+          "hash": "TqDRGfpbOuomZ6B/g66Smw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.Test.html",
-          "hash": "ZGno7jqbefPP1TDQmJj9AA=="
+          "hash": "kf7xPeqjwBn6vDprheVoIQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.TestResult.html",
-          "hash": "ZYA9kUotRk2zJqa+ksqf9Q=="
+          "hash": "/EPI2156XdfDPL7QG1iz6g=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Model.html",
-          "hash": "nmI4d2uy3cFifwOKXQlG1w=="
+          "hash": "QgSpnLZTKvFWtRBIVHZyvw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ClientSettings.EMachineState.html",
-          "hash": "QjGSOCd4YdNqHa/kaed9OQ=="
+          "hash": "tdpV11iLAN1slhqHkQCwrw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ClientSettings.EUserLevel.html",
-          "hash": "ORWYtUF+YZf+5O1Hl0AYgw=="
+          "hash": "72tClnuJawqokoPfhcFnQw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ClientSettings.WeightDistribution.html",
-          "hash": "fEnpvl7UjBSHhTqScdcv4A=="
+          "hash": "q9/7RHi1vUcJ74GoH5tZlg=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ClientSettings.html",
-          "hash": "Q4lN4cL3lQlnwmYarecBZg=="
+          "hash": "uAtMq05l3vVzurBlKm/Ttw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ClientSettingsManager.html",
-          "hash": "ZXMIhe2g7qk5+ygSXJtrDw=="
+          "hash": "DaAfeL5s48MT7BvkK/x1+w=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ISession.html",
-          "hash": "WhdN5CM0qxKotHP1CUIR4A=="
+          "hash": "ZdCFiFLdFkOTioMlw0+93w=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ISessionDataListener.SessionDataChangedEventType.html",
-          "hash": "ZbastFMEKdpDiawZFn/O7w=="
+          "hash": "SMGMGAdQ/3e1UNg1G6ANqg=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.ISessionDataListener.html",
-          "hash": "x83pqyvg9AT9aEqbeRk9fw=="
+          "hash": "HrCvs/nutZJZUyhWpP+BKA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.SessionManager.html",
-          "hash": "QwGVsFHcUdTJFMoeyEx7Eg=="
+          "hash": "SSKBBDGYqiHN3MNHoGoI/Q=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/AppDrillCore.Session.html",
-          "hash": "oOCNgM4PRPola37BdJhElg=="
+          "hash": "n6GN0Pstk01qXurwdZcJsg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "k18S852137TJyXtH7ZksUw=="
+          "hash": "YJxLYLzpTh2yWEcn0/i57g=="
         }
       },
       "is_incremental": false,
@@ -300,7 +300,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting-started.html",
-          "hash": "BpKpeCZK3lIzUzg+ehIA8w=="
+          "hash": "lxobG25OaMDcBgYrMAtkBQ=="
         }
       },
       "is_incremental": false,
@@ -312,7 +312,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "LsxnbRKO/uBWMm7jv9WkTQ=="
+          "hash": "D+21wfPmIEvv+N0JINNRUQ=="
         }
       },
       "is_incremental": false,
@@ -331,12 +331,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "dvLZ91hcZN9v/GkHD6Oqbw=="
+          "hash": "X6ccnpDEtBUbAeVJEZo2nA=="
         }
       },
       "is_incremental": false,
@@ -376,6 +387,13 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

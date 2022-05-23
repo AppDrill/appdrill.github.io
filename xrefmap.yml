@@ -441,6 +441,19 @@ references:
   isSpec: "True"
   fullName: AppDrillCore.Model.Test.Type
   nameWithType: Test.Type
+- uid: AppDrillCore.Model.Test.Url
+  name: Url
+  href: api/AppDrillCore.Model.Test.html#AppDrillCore_Model_Test_Url
+  commentId: P:AppDrillCore.Model.Test.Url
+  fullName: AppDrillCore.Model.Test.Url
+  nameWithType: Test.Url
+- uid: AppDrillCore.Model.Test.Url*
+  name: Url
+  href: api/AppDrillCore.Model.Test.html#AppDrillCore_Model_Test_Url_
+  commentId: Overload:AppDrillCore.Model.Test.Url
+  isSpec: "True"
+  fullName: AppDrillCore.Model.Test.Url
+  nameWithType: Test.Url
 - uid: AppDrillCore.Model.TestResult
   name: TestResult
   href: api/AppDrillCore.Model.TestResult.html
